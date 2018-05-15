@@ -13,6 +13,9 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
 
+public slots:
+    void onbutton1Press();
+
 private:
     QPushButton *button1;
     QLabel *label1;
